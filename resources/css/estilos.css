@@ -1,0 +1,168 @@
+.fondo{
+    @apply bg-yellow-100;
+}
+.espasio{
+    @apply mb-20;
+    @apply bg-yellow-100;
+}
+.super_titulo{
+    
+    @apply font-semibold;
+    @apply uppercase;
+    @apply text-white;
+   @apply text-3xl;
+   @apply pt-10;
+   @apply text-center;
+  
+}
+@media (min-width: 1024px) {
+    .super_titulo { 
+        @apply text-7xl;
+    }
+   
+  }
+.login{
+   @apply bg-blue-500; 
+    @apply text-white; 
+   @apply font-bold; 
+   @apply text-2xl;
+   @apply py-2; 
+   @apply px-4;
+   @apply rounded;
+   @apply mx-24; 
+   @apply mb-6;
+}
+
+.regitred{
+    @apply bg-red-500; 
+    @apply text-white; 
+   @apply font-bold; 
+   @apply text-2xl;
+   @apply py-2; 
+   @apply px-4;
+   @apply rounded;
+   @apply mx-20; 
+}
+.dash{
+    @apply bg-blue-500; 
+    @apply text-white;
+    @apply text-center; 
+   @apply font-bold; 
+   @apply text-2xl;
+}
+h1{
+    @apply text-center; 
+     @apply text-2xl; 
+    @apply text-gray-500; 
+    @apply font-black;
+}
+
+@media (min-width: 1024px) {
+    h1 { 
+        @apply text-6xl;
+    }
+   
+  }
+h2{
+    @apply text-xl; 
+    @apply text-center; 
+    @apply text-gray-500; 
+    @apply font-black;
+}
+@media (min-width: 1024px) {
+h2{
+    @apply text-3xl;
+}
+}
+h3{
+   @apply text-center;
+    @apply text-xl;
+     @apply text-gray-500;
+}
+p{
+   @apply text-lg;
+    @apply text-justify; 
+    @apply text-black;
+}
+@media (min-width: 1024px) {
+    p{
+        @apply text-xl;
+        
+       
+    }
+}
+
+footer{
+   @apply  grid-cols-1; 
+   @apply bg-yellow-400;
+   @apply py-4;
+   @apply text-xl;
+   @apply text-black;
+   @apply text-center;
+}
+@media (min-width: 1024px) {
+    footer{
+        @apply text-2xl;
+        
+       
+    }
+}
+.card_curso{
+    @apply justify-items-center;
+    @apply border-2;
+    @apply  border-yellow-400; 
+    @apply  p-7; 
+    @apply  rounded-md; 
+    @apply  tracking-wide; 
+    @apply  shadow-lg;
+   
+   
+}
+
+.img_card_curso{
+    @apply mx-20;
+   @apply mt-4;
+}
+
+.tm{
+    
+    @apply text-yellow-400; 
+      @apply  text-xl;
+      @apply font-black;
+}
+
+.face{
+   
+    @apply text-blue-600; 
+    @apply text-3xl;
+    @apply pr-2;
+   
+    
+}
+.instagram{
+    @apply text-pink-500; 
+    @apply text-3xl;
+    @apply pr-2;
+}
+
+.youtube{
+    @apply text-red-500; 
+    @apply text-3xl;
+    @apply pr-2;
+}
+.tiktok{
+    @apply text-black; 
+    @apply text-3xl;
+    @apply pr-2;
+}
+.email{
+    @apply text-blue-600; 
+   
+    @apply pr-2;
+}
+
+.what{
+    @apply text-green-600; 
+   
+    @apply pr-2;
+}
